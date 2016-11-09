@@ -1,7 +1,14 @@
 h1{
 	text-align: center;
+	font-size: 400%;
 }
+
+.image{
+	position: center;
+}
+
 .name{
-	font-size: 32px;
+	font-size: 25px;
 	color: black;
+	line-height: 120%;
 }
