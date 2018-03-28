@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Login Page</title>
+		<title>Login</title>
 		<link rel="stylesheet" type="text/css" href="loginstyle.css">
 		<script src="loginjs.js"></script>
 
 	</head>
 	<body>
 		<div class="login-page">
-		<div class="form">
-		<form class="login-form">
-			<input type="text" placeholder="Username" id="un" />
-			<input type="password" placeholder="Password" id="pw" />
-			<button onclick="IsEmpty();">login</button>
-		</form>
-		</div>
+			<div class="form">
+				<form class="login-form">
+					<input type="text" placeholder="Username" id="un" />
+					<input type="password" placeholder="Password" id="pw" />
+					<button onclick="IsLoginEmpty();">login</button>
+				</form>
+				<p class="message">Not registered? <a href="register.html">Create an account</a></p>
+			</div>
 		</div>
 	</body>
 </html>
