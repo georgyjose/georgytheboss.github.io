@@ -1,5 +1,5 @@
 
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version ="1.0" encoding ="iso-8859-1"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -14,7 +14,7 @@
 <body>
 	<div class="mynav" id="mno">
 		<ul >
-			<li><a href="index.php">Logout</a></li>			
+			<li><a href="index.php" onclick="session_destroy();" >Logout</a></li>			
 			<li><a href="#skills">Skills</a></li>
 			<li><a href="#experience">Experience</a></li>
 			<li><a href="#career_objective">Career Objective</a></li>

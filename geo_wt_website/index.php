@@ -44,15 +44,21 @@ if(isset($_POST['submit'])){
 	if($q=mysqli_fetch_array($rs)){
 		?>
 		<script>
-			alert("Login Successful");
-			window.location="about.html";
+			// alert("Login Successful");
+			<?php
+			// echo "hi";
+			// session_start(); 
+			// $_SESSION['user'] = $us;
+			?>
+			window.location="about.php";
 		</script>
 	<?php
+			// echo $_SESSION['user'];
 	}
 	else{
 		?>
 		<script>
-			alert("Login failed");
+			alert("Invalid Credentials! \nLogin failed");
 			</script>
 		<?php
 	}
