@@ -50,7 +50,7 @@ if(isset($_POST['submit'])){
 			// session_start(); 
 			// $_SESSION['user'] = $us;
 			?>
-			window.location="about.php";
+			window.location="about.php?var=<?php echo $us?>";
 		</script>
 	<?php
 			// echo $_SESSION['user'];

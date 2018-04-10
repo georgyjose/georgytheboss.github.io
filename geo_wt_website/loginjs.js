@@ -23,7 +23,15 @@ function IsRegisterEmpty(){
 	else if(document.getElementById("regemail").value == ""){
 		alert("Email field Empty!!");
 		}
+	else if(document.getElementById("regpw").value !== document.getElementById("conf_regpw").value ){
+		alert("Passwords donot match!!");
+	}
+	else if(!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(document.getElementById("regemail").value))){
+		alert("Enter a valid Email Address!!");
+	}
+
 	else{
+		alert("Registration Successful");
 		return true;
 	}
 }
